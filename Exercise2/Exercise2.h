@@ -1,7 +1,10 @@
 //
 //  Exercise2.h
 //  cmpt225
-//  A function to remove a given value from an integer array, which may contain duplicates of the value to be removed. Elements above the removed values should be moved down one index, the order of the array elements stays unchanged. Return the number of values that were removed and should also set the integer reference parameter to the new number of values in the array.
+//  A function to remove a given value from an integer array, which may contain duplicates of the
+//  value to be removed. Elements above the removed values should be moved down one index, the order
+//  of the array elements stays unchanged. Return the number of values that were removed and should
+//  also set the integer reference parameter to the new number of values in the array.
 //  Created by Alex Lo on 2020-05-21.
 
 
