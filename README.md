@@ -1,1 +1,1 @@
-# data structures and algorithms assignments and exercises
+# Data structures and programming assignments/exercises/projects
