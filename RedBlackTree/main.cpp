@@ -14,8 +14,8 @@ void myTest() ;
 void simpleTest();
 
 int main() {
-//    simpleTest();
-    myTest();
+    simpleTest();
+//    myTest();
     return 0;
 }
 
@@ -34,12 +34,12 @@ void myTest() {
     rbt.insert(11, "evelen");
     rbt.remove(13);
     rbt.remove(12);
-    rbt.remove(7);
-    rbt.remove(6);
-    rbt.remove(11);
-    rbt.remove(5);
-    rbt.remove(101);
-//    rbt.print();
+//    rbt.remove(7);
+//    rbt.remove(6);
+//    rbt.remove(11);
+//    rbt.remove(5);
+//    rbt.remove(101);
+    rbt.print();
 //    cout << "root is " << rbt.getRoot()->key << endl;
     cout << "size is " << rbt.size() << endl;
     cout << "search for 12 1 - " << rbt.search(12) << endl;
@@ -119,5 +119,5 @@ void simpleTest()
     cout << "size = " << rb2.size() << endl; //should be 2
     NodeT<int, char>* pRoot = rb2.getRoot(); //BAD design - for our testing only
     cout << "root is " << pRoot->value << endl;
-//    rb2.print();
+    rb2.print();
 }

@@ -103,7 +103,7 @@ private:
     // helper that sort all keys in ascending order
     void inOrderKeys(NodeT<K, V>* nd, vector<K> &keys);
     
-//    void inOrderPrint(NodeT<K, V>* nd) const;
+    void inOrderPrint(NodeT<K, V>* nd) const;
 };
 
 /*//////////////////////////////// public ////////////////////////////////*/
@@ -301,11 +301,11 @@ bool RedBlackTree<K, V>::remove(const K key) {
 }
 
 // print test DELETE
-//template <class K, class V>
-//void RedBlackTree<K, V>::print() const
-//{
-//    inOrderPrint(root);
-//}
+template <class K, class V>
+void RedBlackTree<K, V>::print() const
+{
+    inOrderPrint(root);
+}
 
 /*/////////////////////////////// private ///////////////////////////////*/
 
