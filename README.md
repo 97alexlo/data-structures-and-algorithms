@@ -1,1 +1,1 @@
-## Data structures and programming
+## Data structures and algorithms
